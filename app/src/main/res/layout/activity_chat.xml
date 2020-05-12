@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/NoActionBar"
+    android:layout_height="match_parent"
+    android:background="@color/gowjarenk"
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp"
+    tools:context=".Chat">
+
+    <RelativeLayout
+        android:id="@+id/below"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        >
+        <ImageButton
+            android:id="@+id/refresh"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15sp"
+            android:layout_gravity="right"
+            android:background="@color/trans"
+            android:src="@drawable/ic_refresh_black_24dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+
+        <TextView
+            android:id="@+id/reciver_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:text="Somebody"
+            android:textColor="@android:color/white"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/blokla_btn"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15sp"
+            android:layout_gravity="right"
+            android:background="@color/trans"
+            android:src="@drawable/ic_block_black_24dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+
+    </RelativeLayout>
+
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:id="@+id/pullToRefresh"
+    android:layout_below="@+id/below"
+    android:layout_above="@id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ListView
+        android:fastScrollAlwaysVisible="true"
+        android:stackFromBottom="true"
+        android:id="@+id/lst"
+
+        android:divider="@color/gowjarenk"
+        android:dividerHeight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_height="match_parent"
+        />
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="0dp"
+        android:paddingBottom="10dp"
+
+        >
+
+        <EditText
+            android:id="@+id/habar"
+            android:layout_width="match_parent"
+            android:layout_toLeftOf="@+id/send_btn"
+            android:layout_alignBottom="@+id/send_btn"
+            android:gravity="top"
+            android:inputType="textLongMessage"
+            android:imeOptions="actionSend"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_message"
+            />
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_below="@+id/logooguzhan"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:gravity="center_vertical|right"
+            android:paddingRight="10dp"
+
+            android:layout_marginRight="10dp"
+
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_comment_send_nor"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="18dp"
+            android:textColor="@android:color/white"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oguz Chat</string>
+    <string name="action_settings">Settings</string>
+    <string name="blokla">Unblock</string>
+    <string name="bloklananlar">Blocked Users</string>
+    <string name="communicate">Communicate</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="hatlar">Chats</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_home">Contacts</string>
+    <string name="menu_send">Logout</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_slideshow">Create Group</string>
+    <string name="menu_tools">About</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">" "</string>
+    <string name="nav_header_title">Oguz Chat</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="title_activity_main2">Oguz Chat</string>
+    <string name="topar_Döret">Create Group</string>
+    <string name="topar_ady">Group Name</string>
+    <string name="toparlar">Groups</string>
+    <string name="dil_sayla">Lang:</string>
+    <string name="degree_blok1">Unblock</string>
+    <string name="degree_blok">Block</string>
+    <string name="update_akount">Update Acount</string>
+    <string name="yatda_sakla">Save</string>
+    <string name="at_fam">Name/Surname:</string>
+    <string name="degree">Degree:</string>
+    <string name="department">Department:</string>
+    <string name="faculty">Faculty:</string>
+    <string name="username">Username:</string>
+    <string name="degree1">Degree</string>
+</resources>

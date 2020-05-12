@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0093FE</color>
+    <color name="colorPrimaryDark">#0093FE</color>
+    <color name="colorAccent">#0093FE</color>
+    <color name="colorText">#ffffff</color>
+    <color name="colorPrimaryDark2">#106991</color>
+    <color name="colorPrimary2">#0093FE</color>
+    <color name="oguzhan_renk">#FFEE2D</color>
+    <color name="gowjarenk">#E3E3E3</color>
+    <color name="recmess">#2B2B2B</color>
+    <color name="trans">#00FFFFFF</color>
+    <color name="yashyl">#07EE10</color>
+    <color name="orange">#FFCD59</color>
+</resources>

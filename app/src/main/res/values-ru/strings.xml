@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oguz Chat</string>
+    <string name="action_settings">" Настройки"</string>
+    <string name="blokla">Разблокировать</string>
+    <string name="bloklananlar">Заблокированные пользователи</string>
+    <string name="enter_message">Введите сообщение</string>
+    <string name="communicate">" Сообщаться"</string>
+    <string name="hatlar">Чаты</string>
+    <string name="menu_gallery">" Галерея"</string>
+    <string name="menu_home">" Контакты"</string>
+    <string name="menu_send">" Выйти"</string>
+    <string name="menu_share">Поделиться</string>
+    <string name="menu_slideshow">Создать группу</string>
+    <string name="menu_tools">об программа</string>
+    <string name="nav_header_desc">Заголовок навигации</string>
+    <string name="nav_header_subtitle">" "</string>
+    <string name="nav_header_title">Oguz Chat</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="title_activity_main2">Oguz Chat</string>
+    <string name="topar_Döret">Создать группу</string>
+    <string name="topar_ady">Имя группы</string>
+    <string name="toparlar">группы</string>
+    <string name="dil_sayla">Язык:</string>
+    <string name="degree_blok1">Разблокировать</string>
+    <string name="degree_blok">Заблокировать</string>
+    <string name="update_akount">Обновить аккаунт</string>
+    <string name="yatda_sakla">" Сохранить"</string>
+    <string name="at_fam">" Имя Фамилия:"</string>
+    <string name="degree">" Степень:"</string>
+    <string name="department">" Департамент:"</string>
+    <string name="faculty">" Факультет:"</string>
+    <string name="username">" Имя пользователя:"</string>
+    <string name="degree1">" Степень"</string>
+
+
+</resources>

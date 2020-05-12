@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Oguz Chat</string>
+    <string-array name="department">
+        <item>Department</item>
+        <item>Computer</item>
+        <item>Biology</item>
+        <item>Awtomatika</item>
+        <item>Innowation</item>
+        <item>Chemistry</item>
+    </string-array>
+    <string-array name="faculty">
+        <item>Faculty</item>
+        <item>Computer science and information technologies</item>
+        <item>Biology and ecology</item>
+        <item>Awtomatika</item>
+        <item>Innowation</item>
+        <item>Chemistry and Nanomaterial</item>
+    </string-array>
+    <string name="title_activity_main2">Oguz Chat</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Oguz Chat</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Sazlamalar</string>
+
+    <string name="menu_home">Kontaktlar</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Topar Döretmek</string>
+    <string name="menu_tools">Barada</string>
+    <string name="menu_share">Paýlaş</string>
+    <string name="menu_send">Ulgamdan Çykmak</string>
+    <string name="enter_message">Hatyňyzy giriziň</string>
+    <string name="blokla">Blokdan Aç</string>
+    <string name="topar_ady">Topar ady</string>
+    <string name="topar_Döret">Topar Döret</string>
+    <string name="hatlar">Hatlar</string>
+    <string name="toparlar">Toparlar</string>
+    <string name="bloklananlar">Bloklananlar</string>
+    <string name="communicate">Aragatnaşyk</string>
+    <string name="dil_sayla">Dil:</string>
+    <string name="yatda_sakla">Ýatda Sakla</string>
+    <string name="degree_blok">Blokla</string>
+    <string name="degree_blok1">Blokdan Aç</string>
+    <string name="update_akount">Üýtgetmek</string>
+    <string name="username">Ulanyjy ady:</string>
+    <string name="degree">Wezipesi:</string>
+    <string name="at_fam">Ady/Familiýasy:</string>
+    <string name="faculty">Fakulteti:</string>
+    <string name="department">Bölümi:</string>
+    <string name="degree1">Dereje</string>
+
+    <string-array name="diller">
+        <item>Türkmen Dili</item>
+        <item>English</item>
+        <item>Russian</item>
+    </string-array>
+    <string name="nav_header_subtitle">" "</string>
+
+
+</resources>

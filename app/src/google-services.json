@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "326098647084",
+    "firebase_url": "https://tm-chat-c3c6d.firebaseio.com",
+    "project_id": "tm-chat-c3c6d",
+    "storage_bucket": "tm-chat-c3c6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326098647084:android:07ac88554bd239812eb989",
+        "android_client_info": {
+          "package_name": "com.example.oguzhanchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326098647084-tbh0b5t85d8tbh8c8vsc480k0pojnsqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAddL-IXKyDJKP8uo9pkv1Rxf9qecL4mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326098647084-tbh0b5t85d8tbh8c8vsc480k0pojnsqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
