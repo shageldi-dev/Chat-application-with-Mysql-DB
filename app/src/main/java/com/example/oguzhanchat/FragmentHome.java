@@ -35,10 +35,10 @@ import java.util.Map;
 
 
 public class FragmentHome extends Fragment {
-    String url="http://10.102.10.20/mobile/regist.php";
-    String url1="http://10.102.10.20/mobile/blok_down.php";
-    private static String URL_REGIST="http://10.102.10.20/mobile/logout.php";
-    private static String ur="http://110.102.10.20/mobile/login.php";
+    String url="http://192.168.43.121/mobile/regist.php";
+    String url1="http://192.168.43.121/mobile/blok_down.php";
+    private static String URL_REGIST="http://192.168.43.121/mobile/logout.php";
+    private static String ur="http://192.168.43.121/mobile/login.php";
     Context thiscontext;
     View view;
     @Nullable

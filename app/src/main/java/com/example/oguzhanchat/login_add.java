@@ -83,7 +83,7 @@ public class login_add extends AsyncTask<Void,Integer,Integer> {
                 jo=ja.getJSONObject(i);
 
              if(jo.getString("oka").equals("0")) {
-                 airports.add(new chats_down(jo.getString("msg"),
+                 airports.add(new chats_down(jo.getString("msg").replace("&nbsp;"," "),
                          jo.getString("sender_id"),
                          jo.getString("rec_id"),
                          jo.getString("oka"),
@@ -92,7 +92,7 @@ public class login_add extends AsyncTask<Void,Integer,Integer> {
                          (R.drawable.image41),
                          (R.drawable.delivered)));
              }else{
-                 airports.add(new chats_down(jo.getString("msg"),
+                 airports.add(new chats_down(jo.getString("msg").replace("&nbsp;"," "),
                          jo.getString("sender_id"),
                          jo.getString("rec_id"),
                          jo.getString("oka"),

@@ -34,8 +34,8 @@ import java.util.Map;
 
 public class FragmentHatlar extends Fragment {
     Context thiscontext;
-    String url="http://10.102.10.20/mobile/distinct.php";
-    String url2="http://10.102.10.20/mobile/texttosuser.php";
+    String url="http://192.168.43.121/mobile/distinct.php";
+    String url2="http://192.168.43.121/mobile/texttosuser.php";
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

@@ -46,8 +46,8 @@ import java.util.StringJoiner;
 
 public class FragmentCreateGroup extends Fragment {
     Context thiscontext;
-    String url="http://10.102.10.20/mobile/regist.php";
-    private static String URL_REGIST="http://10.102.10.20/mobile/create_group.php";
+    String url="http://192.168.43.121/mobile/regist.php";
+    private static String URL_REGIST="http://192.168.43.121/mobile/create_group.php";
     ArrayList<String> arrayList=new ArrayList<>();
     List<Group> aaa=new ArrayList<>();
     String string[];

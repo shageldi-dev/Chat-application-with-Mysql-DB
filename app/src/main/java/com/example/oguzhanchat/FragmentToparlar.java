@@ -14,7 +14,7 @@ import androidx.annotation.Nullable;
 
 public class FragmentToparlar extends Fragment {
     Context thiscontext;
-    String url="http://10.102.10.20/mobile/topar.php";
+    String url="http://192.168.43.121/mobile/topar.php";
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

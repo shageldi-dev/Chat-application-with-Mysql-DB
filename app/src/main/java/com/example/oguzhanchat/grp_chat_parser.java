@@ -80,7 +80,7 @@ public class grp_chat_parser extends AsyncTask<Void,Integer,Integer> {
 
                 jo = ja.getJSONObject(i);
 
-                airports.add(new group_chat_down(jo.getString("id"), jo.getString("user_id"), jo.getString("msg"), jo.getString("g_name"),
+                airports.add(new group_chat_down(jo.getString("id"), jo.getString("user_id"), jo.getString("msg").replace("&nbsp;"," "), jo.getString("g_name"),
                         jo.getString("date"),jo.getString("username")));
 
             }

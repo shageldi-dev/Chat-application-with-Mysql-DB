@@ -9,7 +9,7 @@ import android.widget.ListView;
 
 public class Members_group extends AppCompatActivity {
     Context context=this;
-    String url="http://10.102.10.20/mobile/grp_members.php";
+    String url="http://192.168.43.121/mobile/grp_members.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

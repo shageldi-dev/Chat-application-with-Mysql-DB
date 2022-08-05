@@ -57,9 +57,9 @@ public class Update_Acount extends AppCompatActivity{
     ArrayList<String> customList;
     ArrayList<CustomItem1> arrayList;
     ArrayList<CustomItem1> arrayList1;
-    private static String URL_REGIST="http://10.102.10.20/mobile/update.php";
-    private static String URL_REGIST1="http://10.102.10.20/mobile/setcookie.php";
-    String url="http://10.102.10.20/mobile/degree.php";
+    private static String URL_REGIST="http://192.168.43.121/mobile/update.php";
+    private static String URL_REGIST1="http://192.168.43.121/mobile/setcookie.php";
+    String url="http://192.168.43.121/mobile/degree.php";
     Context context=this;
     String ok;
     CountDownTimer countDownTimer;

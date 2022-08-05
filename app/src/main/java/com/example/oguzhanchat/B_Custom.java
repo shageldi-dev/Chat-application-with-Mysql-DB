@@ -37,7 +37,7 @@ public class B_Custom extends BaseAdapter {
     List<B> bList=new ArrayList<>();
     LayoutInflater inflater;
     Context context;
-    String url="http://10.102.10.20//mobile/delete_b.php";
+    String url="http://192.168.43.121//mobile/delete_b.php";
 
     public B_Custom(List<B> bList, Context context) {
         this.bList = bList;

@@ -36,7 +36,7 @@ import static androidx.core.content.ContextCompat.startActivity;
 
 public class Login extends AppCompatActivity {
 private Button login,button;
-private static String URL_REGIST="http://10.102.10.20/mobile/login.php";
+private static String URL_REGIST="http://192.168.43.121/mobile/login.php";
 private EditText name,password;
 Context context=this;
     @Override

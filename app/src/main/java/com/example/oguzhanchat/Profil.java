@@ -21,7 +21,7 @@ public class Profil extends AppCompatActivity {
 
     ImageView update_acount;
     Context context=this;
-    String url="http://10.102.10.20/mobile/profile.php";
+    String url="http://192.168.43.121/mobile/profile.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

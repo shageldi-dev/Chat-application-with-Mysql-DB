@@ -47,9 +47,9 @@ public class Group_Chat extends AppCompatActivity {
     private Button sendMessageButton;
 
     TextView txt_reciver_name;
-    String url="http://10.102.10.20/mobile/g_chat.php";
-    String url1="http://10.102.10.20/mobile/leave_group.php";
-    private static String uuu="http://10.102.10.20/mobile/sent_grp.php";
+    String url="http://192.168.43.121/mobile/g_chat.php";
+    String url1="http://192.168.43.121/mobile/leave_group.php";
+    private static String uuu="http://192.168.43.121/mobile/sent_grp.php";
     private ImageButton leave_group,refresh;
     ListView listView;
     Context context=this;

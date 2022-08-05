@@ -54,11 +54,11 @@ public class Chat extends AppCompatActivity {
     private Button sendMessageButton;
     TextView txt_reciver_name;
     ImageButton blokla_btn,refresh;
-    String url="http://10.102.10.20/mobile/chats.php";
-    private static String uuu="http://10.102.10.20/mobile/sent.php";
-    private static String url2="http://10.102.10.20/mobile/blok.php";
-    private static String url3="http://10.102.10.20/mobile/check_block.php";
-    private static String url4="http://10.102.10.20/mobile/oka.php";
+    String url="http://192.168.43.121/mobile/chats.php";
+    private static String uuu="http://192.168.43.121/mobile/sent.php";
+    private static String url2="http://192.168.43.121/mobile/blok.php";
+    private static String url3="http://192.168.43.121/mobile/check_block.php";
+    private static String url4="http://192.168.43.121/mobile/oka.php";
     String unicode = "?useUnicode=yes&characterEncoding=UTF-8";
     ListView listView;
     Context context=this;

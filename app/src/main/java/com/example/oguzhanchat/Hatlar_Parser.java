@@ -40,7 +40,7 @@ public class Hatlar_Parser extends AsyncTask<Void,Integer,Integer> {
     List<String> d=new ArrayList<>();
     ArrayList<Hatlar> airports=new ArrayList<>();
     ArrayList<String> hat=new ArrayList<>();
-    private static String URL_REGIST="http://10.102.10.20/mobile/hatlar.php";
+    private static String URL_REGIST="http://192.168.43.121/mobile/hatlar.php";
     ProgressDialog pd;
 
     public Hatlar_Parser(Context c, ListView lv, String data) {
